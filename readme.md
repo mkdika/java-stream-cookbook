@@ -44,21 +44,21 @@ ataupun masukan silakan diisi pada [GitHub Issues](https://github.com/mkdika/jav
 
 ## 2. Stream Source
 
-### Read Text Data from URL
-### Read Text Data from File
+#### Read Text Data from URL
+#### Read Text Data from File
 
 ## 3. Stream Intermediate Operation
 
-### Sorting
-### Sorting Multiple Level
-### Combine Multiple List with Flatmap
+#### Sorting
+#### Sorting Multiple Level
+#### Combine Multiple List with Flatmap
 
 ## 4. Stream Terminal Operation
 
-### Group By and Do Something
-### Result to List
-### Result to Map
-### Result to String (Joining)
+#### Group By and Do Something
+#### Result to List
+#### Result to Map
+#### Result to String (Joining)
 
 
 
