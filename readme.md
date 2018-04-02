@@ -46,6 +46,7 @@ ataupun masukan silakan diisi pada [GitHub Issues](https://github.com/mkdika/jav
 
 #### Read Text Data from URL
 #### Read Text Data from File
+#### Iterate Stream with Index
 
 ## 3. Stream Intermediate Operation
 
@@ -60,8 +61,24 @@ ataupun masukan silakan diisi pada [GitHub Issues](https://github.com/mkdika/jav
 #### Result to Map
 #### Result to String (Joining)
 
+## 5. Stream API Enchancement Library
+
+Berikut merupakan contoh-contoh yang mengunakan library/framework alternatif 
+dari Java 8 Stream API.
+
+### 5.1 Streamex
+
+Untuk rujukan lebih lanjut mengenai [Streamex](https://github.com/amaembo/streamex)
+
+_Comming soon.._
+
+### 5.2 Protonpack
+
+Untuk rujukan lebih lanjut mengenai [Protonpack](https://github.com/poetix/protonpack)
+
+_Comming soon.._
 
 
 
-## 9. Releated Reference
+## 6. Releated Reference
 - [Java Stream Package Doc](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html)
