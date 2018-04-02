@@ -7,11 +7,12 @@ contoh-contoh pengunaan praktis yang siap pakai dalam berbagai kasus.
 ![Imgur](https://i.imgur.com/Zz60wq7.png)
 
 
-## 1. Baca Dahulu
+## 1. Readme First
 
 Dokumentasi ini ditulis dengan tujuan dan harapan dapat digunakan sebagai 
 acuan cepat dalam pengunaan Java Stream API berserta _libraries_ terkait lainnya. 
-Dokumentasi akan dibagi berdasarkan kategori skenario serta kasus pengunaannya.
+Dokumentasi akan dibagi berdasarkan 3 fase stream API yaitu: __Source, Intermediate Operation,
+Terminal Operation.__
 
 Sebelum memulai, silakan baca dahulu point-point dibawah ini:
 
@@ -39,15 +40,26 @@ Saya menutup kolaborasi untuk dokumentasi ini. Apabila Anda memiliki ide
 ataupun masukan silakan diisi pada [GitHub Issues](https://github.com/mkdika/java-stream-cookbook/issues).
 
 7. Untuk referensi tambahan dan dokumentasi terkait lainnya, silakan ke bagian
-[Releated Reference](#releated-reference).
+[Releated Reference](#9-releated-reference).
 
-## CONTENT DRAFTING
-- Sorting
-- Sorting Multiple Level
-- String Joining & Concatenation
-- Read Text Data from URL
-- Read Text Data from File
-- Group By and Do Something
+## 2. Stream Source
+
+### Read Text Data from URL
+### Read Text Data from File
+
+## 3. Stream Intermediate Operation
+
+### Sorting
+### Sorting Multiple Level
+### Combine Multiple List with Flatmap
+
+## 4. Stream Terminal Operation
+
+### Group By and Do Something
+### Result to List
+### Result to Map
+### Result to String (Joining)
+
 
 
 
