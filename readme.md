@@ -10,7 +10,7 @@ contoh-contoh pengunaan praktis yang siap pakai dalam berbagai kasus.
 ## 1. Readme First
 
 Dokumentasi ini ditulis dengan tujuan dan harapan dapat digunakan sebagai 
-acuan cepat dalam pengunaan Java Stream API berserta _libraries_ terkait lainnya. 
+acuan cepat dalam pengunaan Java Stream API berserta _libraries_ terkaitaa lainnya. 
 Dokumentasi akan dibagi berdasarkan 3 fase stream API yaitu: __Source, Intermediate Operation,
 Terminal Operation.__
 
@@ -19,8 +19,8 @@ Sebelum memulai, silakan baca dahulu point-point dibawah ini:
 1. Untuk mencoba contoh-contoh dibawah, Anda membutuhkan instalasi __Java Development Kit (JDK) 8__. 
 Akses ke link berikut untuk [Download JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-2. Untuk meminimalisir [_Boilerplate Code_](https://en.wikipedia.org/wiki/Boilerplate_code),
-pada contoh code, pada sebagian skenario saya mengunakan _library_ [Lombok](https://projectlombok.org/).
+2. Untuk meminimalisir [_Boilerplate Code_](https://en.wikipedia.org/wiki/Boilerplate_code), 
+pada sebagian skenario saya mengunakan _library_ [Lombok](https://projectlombok.org/).
 Silakan baca cara instalasi dan pemakaian _library_ Lombok nya. Atapun
 code-code yang tidak berkaitan hanya akan saya tulis sebagai informasi dalam komentar (remarks).
 
@@ -47,6 +47,9 @@ ataupun masukan silakan diisi pada [GitHub Issues](https://github.com/mkdika/jav
 #### Read Text Data from URL
 #### Read Text Data from File
 #### Iterate Stream with Index
+#### Primitive Type Stream
+#### Integer Range
+#### Merging Multiple Stream
 
 ## 3. Stream Intermediate Operation
 
@@ -70,15 +73,20 @@ dari Java 8 Stream API.
 
 Untuk rujukan lebih lanjut mengenai [Streamex](https://github.com/amaembo/streamex)
 
-_Comming soon.._
+_Coming soon.._
+
 
 ### 5.2 Protonpack
 
 Untuk rujukan lebih lanjut mengenai [Protonpack](https://github.com/poetix/protonpack)
 
-_Comming soon.._
+_Coming soon.._
 
 
+### 5.3 jOOL
+Untuk rujukan lebih lanjut mengenai [jOOL](https://github.com/jOOQ/jOOL)
+
+_Coming soon.._
 
 ## 6. Releated Reference
 - [Java Stream Package Doc](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html)
