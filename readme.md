@@ -1,10 +1,11 @@
 # Java 8 Stream API Cook Book and Practical Example
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
 
-![Imgur](https://i.imgur.com/Zz60wq7.png)
-
 Kumpulan dokumentasi _Cook Book_ (buku resep) Java 8 Stream API, berserta 
 contoh-contoh pengunaan praktis yang siap pakai dalam berbagai kasus. 
+
+![Imgur](https://i.imgur.com/Zz60wq7.png)
+
 
 ## 1. Baca Dahulu
 
@@ -23,7 +24,8 @@ Silakan baca cara instalasi dan pemakaian _library_ Lombok nya. Atapun
 code-code yang tidak berkaitan hanya akan saya tulis sebagai informasi dalam komentar (remarks).
 
 3. Untuk contoh-contoh yang mengunakan _3rd party library_ diluar JDK,
-akan saya sertakan link dan rujukan lebih lanjut nya.
+akan saya sertakan link dan rujukan lebih lanjut nya. Untuk mempermudah
+_library dependency management_ saya akan gunakan [Maven](https://maven.apache.org/).
 
 4. Dokumentasi ini tidak dirilis maupun dimaintain secara versi, namun 
 akan di-update secara terus menurut melalui repository GitHub ini. Hal
@@ -35,6 +37,17 @@ hanya sebagai penyelesaian untuk mendapatkan hasil yang sesuai.
 6. Untuk sementara waktu sampai struktur dokumentasi telah lebih solid.
 Saya menutup kolaborasi untuk dokumentasi ini. Apabila Anda memiliki ide
 ataupun masukan silakan diisi pada [GitHub Issues](https://github.com/mkdika/java-stream-cookbook/issues).
+
+7. Untuk referensi tambahan dan dokumentasi terkait lainnya, silakan ke bagian
+[Releated Reference](#releated-reference).
+
+## CONTENT DRAFTING
+- Sorting
+- Sorting Multiple Level
+- String Joining & Concatenation
+- Read Text Data from URL
+- Read Text Data from File
+- Group By and Do Something
 
 
 
