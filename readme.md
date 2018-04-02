@@ -10,7 +10,7 @@ contoh-contoh pengunaan praktis yang siap pakai dalam berbagai kasus.
 ## 1. Readme First
 
 > Untuk referensi mengenai pengenalan dan apa itu Java Stream API, silakan
-ke bagian [Related Reference](#related-reference)
+ke bagian [Related Reference](#related-reference).
 
 Dokumentasi ini ditulis dengan tujuan dan harapan dapat digunakan sebagai 
 acuan cepat dalam pengunaan Java Stream API berserta _libraries_ terkaitaa lainnya. 
@@ -93,6 +93,5 @@ _Coming soon.._
 
 ## Related Reference
 - [Java 8 Streams Introduction](http://www.baeldung.com/java-8-streams-introduction)
+- [Oracle - Processing Data with Java SE 8 Streams](http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html)
 - [Java Stream Package Doc](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html)
-
-
