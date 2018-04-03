@@ -19,11 +19,11 @@ Terminal Operation.__
 
 Sebelum memulai, silakan baca dahulu point-point dibawah ini:
 
-1. Dokumentasi ini mengasumsikan bahwa pembaca telah memahami pemakaian dan 
-pengoperasian dasar-dasar Java 8 Stream API.
+1. Dokumentasi ini mengasumsikan bahwa pembaca telah memiliki pengetahuan dasar 
+akan pemakaian dan pengoperasian Java 8 Stream API.
 
-2. Untuk mencoba contoh-contoh dibawah, Anda membutuhkan instalasi __Java Development Kit (JDK) 8__. 
-Akses ke link berikut untuk [Download JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+2. Untuk mencoba contoh-contoh dibawah, Anda membutuhkan instalasi __Java Development Kit (JDK)__ 
+versi 8 atau lebih tinggi. Akses ke link berikut untuk [Download JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 3. Untuk meminimalisir [_Boilerplate Code_](https://en.wikipedia.org/wiki/Boilerplate_code), 
 pada sebagian skenario saya mengunakan _library_ [Lombok](https://projectlombok.org/).
