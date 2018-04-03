@@ -51,21 +51,24 @@ ataupun masukan silakan diisi pada [GitHub Issues](https://github.com/mkdika/jav
 #### Read Text Data from File
 #### Iterate Stream with Index
 #### Primitive Type Stream
-#### Integer & Long Range
+#### Integer and Long Range Stream
 
 Untuk membuat Stream dengan element _range_ yang bertipe data `Integer` :
 
-```
+```java
 IntStream.range(1, 11).forEach(System.out::print);
+
 // print: 12345678910
 ```
 
 Pada contoh diatas akan Stream memiliki element `1..10` akan dicetak keluar.
 
-Untuk membuat Stream dengan element _range_ yang bertipe data `Long` :
+Dengan cara yang hampir sama, untuk membuat Stream dengan element _range_ 
+yang bertipe data `Long` :
 
-```
+```java
 LongStream.range(0, 16).forEach(System.out::print);
+
 // print: 0123456789101112131415
 ```
 
