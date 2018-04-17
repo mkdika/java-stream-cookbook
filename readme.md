@@ -74,13 +74,150 @@ LongStream.range(0, 16).forEach(System.out::print);
 // print: 0123456789101112131415
 ```
 
-
 #### Merging Multiple Stream
 
 ## 3. Stream Intermediate Operation
 
 #### Sorting
+
+Secara sederhana misalkan kita memiliki `List` ataupun `array` seperti dibawah
+ini kemudian hendak disorting:
+
+```java
+Stream<String> fruits = Stream.of("papaya", "banana", "apple", "grape", "coconut");
+fruits.sorted().forEach(System.out::println); // auto sort
+```
+
+dan hasilnya:
+
+```
+apple
+banana
+coconut
+grape
+papaya
+```
+
+Apabila kita memiliki class refrensi yang ada `implements` class `java.lang.Comparable<T>`
+secara benar, maka kita juga dapat secara langsung mengunakan method `sorted` pada `Stream` 
+seperti contoh dibawah ini:
+
+```java
+class Person implements Comparable<Person>{
+
+    private final String name;
+
+    public Person(String name) {
+        this.name = name;
+    }  
+        
+    @Override
+    public int compareTo(Person o) {
+        return name.compareTo(o.name);
+    }
+
+    @Override
+    public String toString() {
+        return this.name;
+    }        
+}
+```
+
+dan pada pengunaannya:
+
+```java
+Stream<Person> persons = Stream.of(new Person("Charlie"),new Person("Andy"),new Person("Budi"));
+persons.sorted().forEach(System.out::println);
+```
+
+akan tercetak:
+
+```
+Andy
+Budi
+Charlie
+```
+
+Cara lainnya apabila tanpa `implements Comparable` adalah memanfaatkan static method `java.util.Comparator.comparing`.
+seperti contoh dibawah ini:
+
+```java
+class Person {
+
+    private final String name;
+
+    public Person(String name) {
+        this.name = name;
+    }  
+
+    public String getName() {
+        return name;
+    }
+                    
+    @Override
+    public String toString() {
+        return this.name;
+    }        
+}
+```
+
+pada pengunaannya:
+
+```java
+Stream<Person> persons = Stream.of(new Person("Charlie"),new Person("Andy"),new Person("Budi"));
+persons.sorted(comparing(Person::getName)).forEach(System.out::println);
+```
+
+Akan tercetak hasil yang telah terurut sama seperti contoh sebelumnya.
+
 #### Sorting Multiple Level
+
+Contoh terdapat class `Person` dan kita hendak `sort` berdasarkan field `name` kemudian `age`:
+
+```java
+class Person {
+
+    private final String name;
+    private final int age;
+
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+      
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+                           
+    @Override
+    public String toString() {
+        return this.name;
+    }        
+}
+```
+
+Pada pengunaannya:
+
+```java
+Stream<Person> persons = Stream.of(new Person("Michael",20),new Person("Andy",17),
+                                   new Person("Antony",10),new Person("Megan",9));
+persons.sorted(comparing(Person::getName).thenComparing(Person::getAge)).forEach(System.out::println);
+```
+
+Serta hasilnya:
+
+```
+Andy (17)
+Antony (10)
+Megan (9)
+Michael (20)
+```
+
+
 #### Combine Multiple List with Flatmap
 
 ## 4. Stream Terminal Operation
